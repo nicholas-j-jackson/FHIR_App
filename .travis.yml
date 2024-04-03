@@ -1,9 +1,0 @@
-sudo: false
-
-language: ruby
-
-rvm:
-  - 2.5
-
-cache: bundler
-script: bundle exec middleman build
